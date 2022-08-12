@@ -27,7 +27,7 @@ git config user.email danel1234@mail.ru
 git config --list
 ```
 
-Также пример конфигурационного файла для Git можно найти в [корне репозитория]().
+Также пример конфигурационного файла для Git можно найти в [корне репозитория](https://github.com/daneel1985/skillfactory_devops_project2/blob/master/config).
 
 ## Для информации
 
