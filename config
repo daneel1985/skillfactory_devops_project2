@@ -1,14 +1,9 @@
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
 [remote "origin"]
 	url = git@github.com:daneel1985/skillfactory_devops_project2.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "main"]
+[branch "master"]
 	remote = origin
-	merge = refs/heads/main
+	merge = refs/heads/master
 [user]
 	name = Строганов Даниил
 	email = danel1234@mail.ru
